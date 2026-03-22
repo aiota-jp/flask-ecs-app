@@ -1,0 +1,10 @@
+# Flask Web Framework
+Flask==3.0.0
+# MySQL Database Connector
+mysql-connector-python==8.2.0
+# Testing Framework
+pytest==7.4.3
+# Test Coverage
+pytest-cov==4.1.0
+# Production WSGI Server
+gunicorn==21.2.0

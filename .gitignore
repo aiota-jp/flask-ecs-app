@@ -1,0 +1,42 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# AWS一時ファイル
+taskdef-initial.json
+taskdef_backup.json
+appspec_backup.yml
+*-trust-policy.json
+*-policy.json
+bg-config.json
+lb-info.json
+pipeline-config.json
+codebuild-config.json
+imagedefinitions.json
+
+# Secrets
+*.pem
+.env
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+*.egg
+*.egg-info/
